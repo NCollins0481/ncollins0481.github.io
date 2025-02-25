@@ -1,1 +1,30 @@
-theme: jekyll-theme-minimal
+# Jekyll workshop-template evanwill
+# https://github.com/evanwill/workshop-template
+# based on minima theme https://github.com/jekyll/minima
+
+# Notes: 
+# - pages with "nav: true" in front matter will be in header nav
+
+# Site settings
+# title appears in the header
+title: Nathaniel Collins
+
+# site urls
+# add the url for the domain,
+# on gh-pages follow the pattern: https://username.github.io 
+url: https://ncollins0481.github.io
+# add subsection of the domain,
+# on gh-pages this is a / followed by the name of the repository
+baseurl: /
+plugins:
+  - jekyll-theme-minimal
+
+# defaults (to simplify front matter)
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Build settings
+markdown: kramdown
